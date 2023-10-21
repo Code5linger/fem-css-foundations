@@ -1,0 +1,145 @@
+body {
+  margin: 0 auto;
+  /* background: #FFFFFF; */
+  background-color: #ffffff;
+}
+
+/* ****** */
+/* HEADER */
+/* ****** */
+
+header {
+  /* background: #FF7B54; */
+  list-style: none;
+  max-width: 100%;
+  margin: 5rem;
+  padding: 1rem 5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header ul li {
+  margin: 0 1.5rem;
+}
+
+.header-right {
+  display: flex;
+  /* background: black; */
+  font-size: 20px;
+}
+
+.logo {
+  font-size: 40px;
+}
+
+a {
+  /* background-color: yellow; */
+  text-decoration: none;
+  color: #ff7b54;
+}
+
+/* Frequently Used Elements  */
+
+.flex {
+  display: flex;
+  margin: 0 auto;
+}
+
+.font-white {
+  color: #ffffff;
+  background: #ff7b54;
+}
+
+.font-orange {
+  color: #ff7b54;
+  background: white;
+}
+
+main {
+  /* background: #FF7B54; */
+  margin: 4rem 0 0 10rem;
+  max-width: 55rem;
+}
+
+main p {
+  margin: 0;
+}
+
+.headline {
+  font-size: 128px;
+}
+
+.sub-headline {
+  font-size: 40px;
+}
+
+.buttons {
+  display: flex;
+  gap: 1.5rem;
+  margin: 4rem 0;
+}
+
+button {
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 1.5rem 3rem;
+}
+
+.alt--button {
+  border: 3px solid white;
+}
+
+.arrow {
+  padding-left: 1rem;
+}
+
+.cards {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 20rem;
+  margin-bottom: 5rem;
+}
+
+.card img {
+  object-fit: cover;
+  max-width: 15rem;
+  height: 15rem;
+  display: block;
+}
+
+/* Name */
+.card--text h2 {
+  font-size: 32px;
+  line-height: 0;
+  color: #ff7b54;
+  margin-top: 2rem;
+}
+/* Company */
+.card--text p:nth-of-type(1) {
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.card--text p:nth-of-type(2) {
+  font-size: 20px;
+}

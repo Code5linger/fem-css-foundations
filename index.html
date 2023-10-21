@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Day</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <a href="/">CSS Day</a>
-        <div>
+    <header class="flex">
+        <a class="logo" href="/">CSS Day</a>
+        <div class="header-right">
             <nav>
                 <ul>
                     <li><a href="#">About</a></li>
@@ -20,10 +21,15 @@
             <img src="./icons/shopping-cart.svg" alt="Shopping cart">
         </div>
     </header>
+    <!--  -->
     <main>
-        <p>CSS Day is a conference for developers who love beautiful websites.</p>
-        <p>4-8 June 2023</p>
-        <button>Buy Tickets <img src="./icons/arrow-right.svg" alt="Right arrow"></button>
+        <p class="font-white headline">CSS Day is a conference for developers who love beautiful websites.</p>
+        <p class="font-white sub-headline">4-8 June 2023</p>
+        <!--  -->
+        <div class="buttons">
+            <button class="font-orange">Buy Tickets <img class="arrow" src="./icons/arrow-right.svg" alt="Right arrow"></button>
+            <button class="alt--button font-white">Contact Us</button>
+        </div>
     </main>
 </body>
 </html>
